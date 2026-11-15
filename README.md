@@ -22,9 +22,9 @@
 
 | Platform | File | Size |
 | --- | --- | --- |
-| **Chrome**, Edge, Brave, Opera, Vivaldi | [`unreel-chrome-v1.0.0.zip`](releases/unreel-chrome-v1.0.0.zip) | 21 KB |
-| **Firefox** (desktop & Android) | [`unreel-firefox-v1.0.0.xpi`](releases/unreel-firefox-v1.0.0.xpi) | 21 KB |
-| **Android** app (Instagram app) | [`unreel-android-v1.0.0.apk`](releases/unreel-android-v1.0.0.apk) | 1 MB |
+| **Chrome**, Edge, Brave, Opera, Vivaldi | [`unreel-chrome-v1.0.0.zip`](https://raw.githubusercontent.com/egorbabin/unreel/main/releases/unreel-chrome-v1.0.0.zip) | 21 KB |
+| **Firefox** (desktop & Android) | [`unreel-firefox-v1.0.0.xpi`](https://raw.githubusercontent.com/egorbabin/unreel/main/releases/unreel-firefox-v1.0.0.xpi) | 21 KB |
+| **Android** app (Instagram app) | [`unreel-android-v1.0.0.apk`](https://raw.githubusercontent.com/egorbabin/unreel/main/releases/unreel-android-v1.0.0.apk) | 1 MB |
 
 Checksums: [`releases/SHA256SUMS.txt`](releases/SHA256SUMS.txt)
 
@@ -72,7 +72,7 @@ Checksums: [`releases/SHA256SUMS.txt`](releases/SHA256SUMS.txt)
 
 ### Chrome / Edge / Brave / Opera
 
-1. Download [`unreel-chrome-v1.0.0.zip`](releases/unreel-chrome-v1.0.0.zip) and **unzip** it into a folder you will keep.
+1. Download [`unreel-chrome-v1.0.0.zip`](https://raw.githubusercontent.com/egorbabin/unreel/main/releases/unreel-chrome-v1.0.0.zip) and **unzip** it into a folder you will keep.
 2. Open `chrome://extensions` (Edge: `edge://extensions`).
 3. Turn on **Developer mode** (top-right).
 4. Click **Load unpacked** and pick the unzipped folder.
@@ -82,7 +82,7 @@ Checksums: [`releases/SHA256SUMS.txt`](releases/SHA256SUMS.txt)
 
 Firefox only installs *permanently* add-ons that are signed by Mozilla. Pick one:
 
-- **Quick try (until restart):** open `about:debugging#/runtime/this-firefox` → **Load Temporary Add-on…** → choose [`unreel-firefox-v1.0.0.xpi`](releases/unreel-firefox-v1.0.0.xpi).
+- **Quick try (until restart):** open `about:debugging#/runtime/this-firefox` → **Load Temporary Add-on…** → choose [`unreel-firefox-v1.0.0.xpi`](https://raw.githubusercontent.com/egorbabin/unreel/main/releases/unreel-firefox-v1.0.0.xpi).
 - **Permanent, unsigned:** in **Firefox Developer Edition / Nightly / ESR**, set `xpinstall.signatures.required` to `false` in `about:config`, then drag the `.xpi` into the window.
 - **Permanent, signed (recommended for publishing):** upload the `.xpi` to [addons.mozilla.org](https://addons.mozilla.org/developers/) — as a listed or self-distributed (unlisted) add-on — and install the signed file Mozilla gives back.
 
@@ -90,7 +90,7 @@ Firefox only installs *permanently* add-ons that are signed by Mozilla. Pick one
 
 ### Android
 
-1. Download [`unreel-android-v1.0.0.apk`](releases/unreel-android-v1.0.0.apk) on your phone and open it. Allow installing from your browser/file manager if asked.
+1. Download [`unreel-android-v1.0.0.apk`](https://raw.githubusercontent.com/egorbabin/unreel/main/releases/unreel-android-v1.0.0.apk) on your phone and open it. Allow installing from your browser/file manager if asked.
 2. Open **Unreel** → tap **Open Accessibility settings** → **Unreel — Reels blocker** → turn it **on**.
 3. **Switch greyed out?** (Android 13+) Go back to Unreel → **Open App info** → **⋮** menu → **Allow restricted settings**, then repeat step 2.
 4. Open Instagram and tap your **Profile** tab once — Unreel learns your username. (Or type it in the app.)
