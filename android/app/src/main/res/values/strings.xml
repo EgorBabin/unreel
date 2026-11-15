@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Unreel</string>
+    <string name="service_label">Unreel — Reels blocker</string>
+    <string name="service_summary">Closes Instagram Reels that are not yours</string>
+    <string name="service_description">Unreel watches only the Instagram app. When the Reels feed or someone else\'s reel opens, it presses Back for you. Your own reels stay open so you can watch and edit them. Unreel never reads your messages, never collects data and has no internet permission.</string>
+</resources>

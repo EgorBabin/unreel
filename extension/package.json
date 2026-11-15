@@ -1,0 +1,14 @@
+{
+  "name": "unreel-extension",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Unreel browser extension for Chrome and Firefox",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.2"
+  },
+  "scripts": {
+    "build": "node build.mjs"
+  }
+}

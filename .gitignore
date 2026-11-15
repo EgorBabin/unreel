@@ -1,0 +1,25 @@
+# Signing secrets — never commit these
+android/keystore/
+android/keystore.properties
+*.jks
+*.keystore
+
+# Android / Gradle
+android/local.properties
+android/.gradle/
+android/.kotlin/
+android/build/
+android/app/build/
+android/captures/
+*.iml
+.idea/
+
+# Extension build output (packaged files live in releases/)
+extension/dist/
+node_modules/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.claude/

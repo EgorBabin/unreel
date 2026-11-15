@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Unreel</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main class="app">
+    <header class="header">
+      <img class="logo" src="../icons/icon-128.png" alt="" width="40" height="40">
+      <div class="brand">
+        <h1>Unreel</h1>
+        <p>Block Reels. Keep yours.</p>
+      </div>
+      <label class="switch big" title="Turn protection on or off">
+        <input type="checkbox" id="enabled">
+        <span class="track"><span class="thumb"></span></span>
+      </label>
+    </header>
+
+    <section class="status" id="status">
+      <div class="status-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path d="M12 2 4 5v6c0 5 3.4 9.6 8 11 4.6-1.4 8-6 8-11V5l-8-3Z"/><path class="check" d="m8.5 12 2.5 2.5 4.5-5"/></svg>
+      </div>
+      <div class="status-text">
+        <strong id="status-title">Protection is on</strong>
+        <span id="status-sub">Other people's reels are blocked</span>
+      </div>
+    </section>
+
+    <section class="stat">
+      <span class="stat-num" id="count">0</span>
+      <span class="stat-label">reels blocked so far</span>
+    </section>
+
+    <section class="card">
+      <div class="card-title">Your account</div>
+      <div class="account">
+        <div class="avatar" id="avatar">?</div>
+        <div class="account-text">
+          <strong id="account-name">Not detected yet</strong>
+          <span id="account-source">Open instagram.com while logged in</span>
+        </div>
+      </div>
+      <label class="field">
+        <span>Username override</span>
+        <div class="input-wrap">
+          <span class="at">@</span>
+          <input id="manualUsername" type="text" placeholder="auto-detect" autocomplete="off" spellcheck="false" maxlength="30">
+        </div>
+      </label>
+      <p class="hint">Your own reels stay fully watchable and editable. Leave empty to detect automatically.</p>
+    </section>
+
+    <section class="card">
+      <div class="card-title">Behaviour</div>
+      <div class="row">
+        <span>After blocking, go to</span>
+        <div class="segmented" role="radiogroup">
+          <button type="button" data-redirect="home" role="radio">Home</button>
+          <button type="button" data-redirect="profile" role="radio">My profile</button>
+        </div>
+      </div>
+      <div class="row">
+        <span>Hide Reels buttons</span>
+        <label class="switch">
+          <input type="checkbox" id="hideNavButton">
+          <span class="track"><span class="thumb"></span></span>
+        </label>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span id="version">v1.0.0</span>
+      <span class="dot">•</span>
+      <span>Runs 100% locally · no tracking</span>
+    </footer>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>
